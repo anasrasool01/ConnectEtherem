@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+    font-family: Open Sans;
+}
+
+section {
+    width: 100%;
+    background: #333;
+    height: 50%;
+    text-align: center;
+}
+
+#input {
+    /* width: 100%; */
+    background: #666;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#btn {
+    /* width: 100%; */
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 1%;
+
+}
+
+.footer-distributed {
+    background: black;
+    padding: 1% 1%;
+    color: #fff;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    font-size: 25px;
+    margin: 1% 1%;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    margin: 0%;
+}
+
+.footer-distributed .footer-center p span {
+    color: #33383b;
+}
+
+.footer-distributed .footer-right {
+    /* width: 22%; */
+}
+
+.footer-distributed .footer-company-about span {
+    font-weight: bold;
+}
+
+.bottom {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+
+/* .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 60%;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 20px;
+    margin-right: 3px;
+} */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 7px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 70%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,27 @@
+.Cardoneh12 {
+    margin-top: 2%;
+}
+
+.conText {
+    margin-top: -1%;
+    margin-left: 3%;
+}
+
+.con {
+    display: flex;
+    flex: 1;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    /* height: 10%; */
+    /* margin-left: 12%; */
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 600px) {
+    .conText {
+        margin-top: -8%;
+        margin-left: 10%;
+    }
+}

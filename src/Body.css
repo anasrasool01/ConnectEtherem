@@ -1,0 +1,68 @@
+/* .heading {
+    width: 100%;
+} */
+body {
+    width: 100%;
+}
+
+.heading2 {
+    color: blue;
+    margin-top: -20px;
+}
+
+.BluePara {
+    font-size: 12px;
+    margin-top: 10%;
+    color: blue;
+}
+
+.paragraph {
+    margin-top: -20px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .heading {
+        width: 100%;
+    }
+
+    .heading2 {
+        color: blue;
+        margin-top: -20px;
+    }
+
+    .BluePara {
+        font-size: 12px;
+        margin-top: 10%;
+        color: blue;
+    }
+
+    .paragraph {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading {
+        width: 100%;
+    }
+
+    .heading2 {
+        color: blue;
+        margin-top: -2%;
+        width: 100%;
+        align-self: center;
+    }
+
+    .BluePara {
+        font-size: 12px;
+        margin-top: 10%;
+        color: blue;
+        width: 100%;
+    }
+
+    .paragraph {
+        margin-top: -3%;
+        width: 100%;
+    }
+}

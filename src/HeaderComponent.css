@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+    font-family: Open Sans;
+}
+
+.TopHeader {
+    display: flex;
+    border-bottom: 1px solid silver;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.leftHead {
+    flex: 1;
+    display: flex;
+}
+
+.headerLogo {
+    height: 65%;
+    margin-left: 50%;
+    margin-top: 6%;
+}
+
+.MiddleHeader {
+    display: flex;
+    margin: 2%;
+    margin-left: 15%;
+    margin-right: 40%;
+}
+
+.Middle {
+    margin: 3%;
+}
+
+.RightHeader {
+    margin-top: 1%;
+    margin-left: 2%;
+    display: flex;
+}
+
+.lefth1 {
+    margin: 10%;
+}
+
+.btn {
+    background-color: rgb(68, 92, 199);
+    /* margin: 5%; */
+    margin-right: 50%;
+    border-radius: 10px;
+    height: 50%;
+    margin-top: 8%;
+    width: 100%;
+}
+
+/* button {
+    font-size: 36px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+} */
+
+.btn h3 {
+    color: white;
+    margin-top: 15%;
+}
+
+@media (max-width: 880px) {
+
+    .TopHeaders {
+        font: bold 7px sans-serif;
+    }
+
+    .leftHead,
+    .MiddleHeader,
+    .RightHeader {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerLogo {
+        height: 30%;
+        /* margin-left: 50%; */
+        /* margin-top: 15%; */
+    }
+
+    .btn {
+        background-color: rgb(68, 92, 199);
+        border-radius: 10px;
+        height: 35%;
+        width: 100%;
+    }
+
+    .MiddleHeader {
+        /* display: flex; */
+        /* margin: 2%; */
+        /* margin-left: 15%; */
+        margin-right: 8%;
+    }
+
+    .lefth1 {
+        margin: 15%;
+    }
+
+    .leftHead {
+        flex: 1;
+        /* display: flex; */
+    }
+
+    .RightHeader {
+        margin-top: 1%;
+        margin-right: 2%;
+        /* display: flex; */
+    }
+}
